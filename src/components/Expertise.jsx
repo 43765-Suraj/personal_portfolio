@@ -1,4 +1,4 @@
-import bannerImage from '../assets/bannerBackground.png'
+import bannerImage from '../assets/coverEndImage.png'
 const Expertise=()=>{
     return(
        <>
@@ -6,9 +6,8 @@ const Expertise=()=>{
         <h1 className="text-3xl text-center underline font-bold">My Expertise</h1>
         {/**Box section */}
         <div   className="box-container flex py-14">
-        <div style={{backgroundImage:`url(${bannerImage})`,
-            backgroundSize:'cover'
-        }} className='text-center space-y-16' >
+        <div style={{ backgroundImage: `url(${bannerImage})`, backgroundSize: 'cover' }}
+            className=" text-center space-y-6 md:space-y-10 px-6 py-6 md:py-16">
             {/**Text Container */}
             <h1 className='text-2xl font-bold'>I love these techologies</h1>
             <p className='text-center'>Lorem ipsum dolor sit amet consectetur ufdhfdj fhdfbhdf bd ufdf dbfjd    bdh fbhdf hdadipisicing elit. Provident  quae eum assumenda officiis adipisci nulla.</p>
